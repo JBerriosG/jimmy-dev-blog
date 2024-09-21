@@ -1,0 +1,40 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h2>💀Bienvenidos Letrad@s👻</h2>
+			<p>
+				Sean bienvenidos a este compendio de blogs sobre la cultura
+				geek, el terror, el anime, desarrollo de softwares y
+				videojuegos. Para esta primera edición comenzaremos con el blog
+				sobre leyendas del mundo.
+			</p>
+			<p>
+				Iremos complementando los post con distintas sorpresas creadas
+				con nuestras muy variadas habilidades adquiridas por hobbies.
+			</p>
+			<p>
+				Esperamos una buena recepción de parte de todos y ojalas pueda
+				disfrutar del contenido presentado en este blog y los demas
+				sitios que iran complementando al mismo.
+			</p>
+			<p>
+				Dentro de cada blog podran acceder a cada uno de los post de esa
+				tematica en particular, para que asi no tengan que navegar por
+				todas partes para encontrar lo que mas les gusta.
+			</p>
+		</main>
+		<Footer />
+	</body>
+</html>
