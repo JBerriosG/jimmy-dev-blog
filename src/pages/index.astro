@@ -3,36 +3,44 @@ import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import { ViewTransitions } from "astro:transitions";
+import { fade } from "astro:transitions";
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" transition:animate="none">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<ViewTransitions />
 	</head>
 	<body>
 		<Header />
-		<main>
+		<main transition:animate={fade({ duration: "1.3s" })}>
 			<h2>💀Bienvenidos Letrad@s👻</h2>
 			<p>
-				Sean bienvenidos a este compendio de blogs sobre la cultura
-				geek, el terror, el anime, desarrollo de softwares y
-				videojuegos. Para esta primera edición comenzaremos con el blog
-				sobre leyendas del mundo.
+				¡Bienvenidos a este compendio de blogs dedicados a la cultura
+				geek, el terror, el anime, el desarrollo de software y los
+				videojuegos! En esta primera edición, comenzaremos con un
+				fascinante blog sobre leyendas del mundo.
 			</p>
 			<p>
-				Iremos complementando los post con distintas sorpresas creadas
-				con nuestras muy variadas habilidades adquiridas por hobbies.
+				A lo largo de nuestras publicaciones, iremos sorprendiendo a
+				nuestros lectores con contenido creado a partir de nuestras
+				variadas habilidades adquiridas a través de nuestros hobbies.
 			</p>
 			<p>
-				Esperamos una buena recepción de parte de todos y ojalas pueda
-				disfrutar del contenido presentado en este blog y los demas
-				sitios que iran complementando al mismo.
+				Esperamos recibir una gran acogida y que disfruten del contenido
+				que hemos preparado. Además, habrá otros sitios complementarios
+				que enriquecerán su experiencia.
 			</p>
 			<p>
-				Dentro de cada blog podran acceder a cada uno de los post de esa
-				tematica en particular, para que asi no tengan que navegar por
-				todas partes para encontrar lo que mas les gusta.
+				En cada blog, podrán acceder fácilmente a los diferentes posts
+				relacionados con cada temática, para que no tengan que navegar
+				por todas partes en busca de lo que más les apasiona.
+			</p>
+			<p>
+				¡Gracias por unirse a nosotros y esperamos que disfruten de su
+				visita!
 			</p>
 		</main>
 		<Footer />

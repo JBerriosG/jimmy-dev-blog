@@ -1,21 +1,24 @@
 ---
-import BaseHead from '../../../components/BaseHead.astro';
-import Header from '../../../components/Header.astro';
-import Footer from '../../../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../../../consts';
-import { getCollection } from 'astro:content';
-import FormattedDate from '../../../components/FormattedDate.astro';
+import BaseHead from "../../../components/BaseHead.astro";
+import Header from "../../../components/Header.astro";
+import Footer from "../../../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../../../consts";
+import { getCollection } from "astro:content";
+import FormattedDate from "../../../components/FormattedDate.astro";
+import { ViewTransitions } from "astro:transitions";
+import { fade } from 'astro:transitions';
 
-const posts = (await getCollection('blog')).sort(
+const posts = (await getCollection("blog")).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
-const filteredPosts = posts.filter((post)=>post.data.category === 'dev');
+const filteredPosts = posts.filter((post) => post.data.category === "dev");
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" transition:animate="none">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<ViewTransitions/>
 		<style>
 			main {
 				width: 960px;
@@ -88,17 +91,27 @@ const filteredPosts = posts.filter((post)=>post.data.category === 'dev');
 	</head>
 	<body>
 		<Header />
-		<main>
+		<main transition:animate={fade({ duration: '1.3s'})}>
 			<section>
 				<ul>
 					{
 						filteredPosts.map((post) => (
 							<li>
-								<a href={`/blog/dev/${post.slug}/`}>
-									<img width={720} height={360} src={post.data.heroImage} alt="" />
+								<a
+									href={`/blog/dev/${post.slug}/`}
+									class="hover:text-amber-400 font-semibold"
+								>
+									<img
+										width={720}
+										height={360}
+										src={post.data.heroImage}
+										alt=""
+									/>
 									<h4 class="title">{post.data.title}</h4>
 									<p class="date">
-										<FormattedDate date={post.data.pubDate} />
+										<FormattedDate
+											date={post.data.pubDate}
+										/>
 									</p>
 								</a>
 							</li>

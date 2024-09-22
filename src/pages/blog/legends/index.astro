@@ -5,6 +5,8 @@ import Footer from '../../../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../../../consts';
 import { getCollection } from 'astro:content';
 import FormattedDate from '../../../components/FormattedDate.astro';
+import { ViewTransitions } from "astro:transitions";
+import { fade } from 'astro:transitions';
 
 const posts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
@@ -13,9 +15,10 @@ const filteredPosts = posts.filter((post)=>post.data.category === 'legends');
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" transition:animate="none">
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<ViewTransitions/>
 		<style>
 			main {
 				width: 960px;
@@ -88,13 +91,13 @@ const filteredPosts = posts.filter((post)=>post.data.category === 'legends');
 	</head>
 	<body>
 		<Header />
-		<main>
+		<main transition:animate={fade({ duration: '1.3s' })}>
 			<section>
 				<ul>
 					{
 						filteredPosts.map((post) => (
 							<li>
-								<a href={`/blog/legends/${post.slug}/`}>
+								<a href={`/blog/legends/${post.slug}/`} class="hover:text-amber-400 font-semibold">
 									<img width={720} height={360} src={post.data.heroImage} alt="" />
 									<h4 class="title">{post.data.title}</h4>
 									<p class="date">
