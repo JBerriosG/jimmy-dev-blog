@@ -3,7 +3,7 @@ title: 'Introducción a Springboot con Spring Data JPA'
 subTitle: 'Simplifica el acceso a los datos en tus aplicaciones'
 description: 'Lorem ipsum dolor sit amet'
 pubDate: 'Sep 21 2024'
-heroImage: '/spring-data-jpa.png'
+heroImage: '/spring-data-jpa.webp'
 category: 'dev'
 ---
 
@@ -25,20 +25,17 @@ Comenzaremos accediendo a la web de [Spring Initializr](https://start.spring.io/
 
 Ahora pasaremos a lo más relevante para que el proyecto funcione: las dependencias. Agregaremos las siguientes dependencias:
 
-- Spring Web: Proporciona el soporte necesario para 
-    crear APIs RESTful y manejar solicitudes HTTP.
-- Spring Data JPA: Abstrae la capa de persistencia al 
-    simplificar las operaciones CRUD mediante JPA.
-- Lombok: Genera automáticamente código repetitivo como 
-    getters, setters y constructores, mediante anotaciones 
-    como @Getter y @Setter.
-- MySQL Driver: Contiene el conector JDBC para 
-    interactuar con bases de datos MySQL desde la 
-    aplicación.
-- PostgreSQL Driver: Incluye el controlador JDBC para 
-    conectarse a bases de datos PostgreSQL.
-- H2 Database: Proporciona una base de datos ligera en 
-    memoria, ideal para pruebas y desarrollo rápido.
+<strong>Spring Web:</strong> Proporciona el soporte necesario para crear APIs RESTful y manejar solicitudes HTTP.
+
+<strong>Spring Data JPA:</strong> Abstrae la capa de persistencia al simplificar las operaciones CRUD mediante JPA.
+
+<strong>Lombok:</strong> Genera automáticamente código repetitivo como getters, setters y constructores, mediante anotaciones como @Getter y @Setter.
+
+<strong>MySQL Driver:</strong> Contiene el conector JDBC para interactuar con bases de datos MySQL desde la aplicación.
+
+<strong>PostgreSQL Driver:</strong> Incluye el controlador JDBC para conectarse a bases de datos PostgreSQL.
+
+<strong>H2 Database:</strong> Proporciona una base de datos ligera en memoria, ideal para pruebas y desarrollo rápido.
 
 Al terminar con la configuración inicial del proyecto en Spring Initializr le damos al botón Generate y se nos descargara un archivo .zip.
 
