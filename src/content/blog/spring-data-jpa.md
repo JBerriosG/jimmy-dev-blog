@@ -19,16 +19,12 @@ En este artículo, aprenderás cómo aprovechar la potencia de estos dos framewo
 
 ### Configuración del proyecto
 
-Comenzaremos accediendo a la web de [Spring Initializr](https://start.spring.io/). Aquí, tenemos muchas consideraciones que tomar dependiendo del tipo de proyecto que vayamos a crear.
-
-Empecemos por lo básico: debemos elegir si nuestro proyecto será hecho con Maven o Gradle. Esto es importante, ya que mucha de la documentación o tutoriales sobre la implementación de algunas librerías en Spring Boot están basados en Maven, que es lo más común en la industria. Sin embargo, esto no impide que podamos usar Gradle alguna vez. Les pongo mi ejemplo: desde que comencé a usar Java y Spring Boot en mi día a día laboral, siempre he utilizado Gradle. Lo bueno es que todo lo que se puede hacer con Maven, se puede convertir fácilmente a Gradle.
-
-Dejando ese punto de lado, debemos asegurarnos de escoger Java como lenguaje base, seleccionar la versión de Spring Boot que utilizaremos, y configurar los nombres de nuestros paquetes y artefactos. Pueden seguir los ejemplos que puse en la imagen si así lo desean.
+Comenzaremos accediendo a la web de [Spring Initializr](https://start.spring.io/) para preparar nuestro proyecto inicial. Pueden seguir el ejemplo que puse en la imagen si así lo desean.
 
 ![Spring Initializr](/spring-1.png)
 
 Ahora pasaremos a lo más relevante para que el proyecto funcione: las dependencias. Agregaremos las siguientes dependencias:
-```markdown
+
 - Spring Web: Proporciona el soporte necesario para 
     crear APIs RESTful y manejar solicitudes HTTP.
 - Spring Data JPA: Abstrae la capa de persistencia al 
@@ -43,6 +39,17 @@ Ahora pasaremos a lo más relevante para que el proyecto funcione: las dependenc
     conectarse a bases de datos PostgreSQL.
 - H2 Database: Proporciona una base de datos ligera en 
     memoria, ideal para pruebas y desarrollo rápido.
-```
 
-Es importante agregar solo el driver de la base de datos que vayamos a utilizar, no los tres mencionados. H2 Database se incluye únicamente para quienes deseen realizar pruebas sin configurar un entorno completo de base de datos en su máquina. Esta base de datos es útil solo en entornos de desarrollo, ya que facilita las pruebas iniciales cuando aún no se ha decidido qué base de datos utilizar en el proyecto (algo que ocurre con frecuencia en la práctica). Lo mejor es que, como veremos más adelante, cambiar de base de datos es muy sencillo y no afectará a los demás componentes que desarrollemos.
+Al terminar con la configuración inicial del proyecto en Spring Initializr le damos al botón Generate y se nos descargara un archivo .zip.
+
+### Iniciando el proyecto
+
+Comenzamos por abrir y descomprimir el zip que se nos descargo en el paso anterior. Abrimos nuestro IDE de confianza, y arrastramos la carpeta sobre este, en mi caso el que suelo usar y mas les recomiendo para trabajar con java es IntelliJ IDEA, pero ud pueden usar el que mas les acomode. Se les verá mas o menos asi:
+
+![IntelliJ IDEA](/spring-2.png)
+
+Aquí debajo les dejare la configuración inicial de su archivo .properties que se encuentra en la carpeta resources.
+
+![Archivo properties](/spring-3.png)
+
+Siguiendo las configuraciones de la imagen tendran su aplicacion de springboot conectada a una base de datos en memoria, al momento echar a correr la aplicacion de springboot podremos acceder a la interfaz grafica de H2 a traves del siguiente link [http://localhost:8080/h2-console](http://localhost:8080/h2-console), gracias a esto podremos ver las tablas y los datos de manera mas comoda.
