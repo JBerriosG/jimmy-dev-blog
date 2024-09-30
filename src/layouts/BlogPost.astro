@@ -17,11 +17,6 @@ const { title, subTitle, description, pubDate, updatedDate, heroImage } = Astro.
 		<BaseHead title={title} description={description} />
 		<ViewTransitions/>
 		<style>
-			main {
-				width: calc(100% - 2em);
-				max-width: 100%;
-				margin: 0;
-			}
 			.hero-image {
 				width: 100%;
 			}
@@ -59,7 +54,7 @@ const { title, subTitle, description, pubDate, updatedDate, heroImage } = Astro.
 
 	<body>
 		<Header />
-		<main transition:animate={fade({duration:'1.3s'})}>
+		<main transition:animate={fade({duration:'1.3s'})} class="w-[90%]">
 			<article>
 				<div class="hero-image">
 					{heroImage && <img width={1020} height={510} src={heroImage} alt="" />}
@@ -76,7 +71,7 @@ const { title, subTitle, description, pubDate, updatedDate, heroImage } = Astro.
 								)
 							}
 						</div>
-						<h1>{title}</h1>
+						<h1 class="text-3xl md:text-4xl">{title}</h1>
 						<h2>{subTitle}</h2>
 						<hr />
 					</div>

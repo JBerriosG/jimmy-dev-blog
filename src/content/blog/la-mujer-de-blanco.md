@@ -3,16 +3,44 @@ title: 'La mujer de blanco'
 subTitle: ''
 description: 'Lorem ipsum dolor sit amet'
 pubDate: 'Sep 22 2024'
-heroImage: '/la-mujer-de-blanco.png'
+heroImage: '/la-mujer-de-blanco.webp'
 category: 'legends'
 ---
+````
+💀País de origen: Multiple💀
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+👻Tipo: Espectro👻
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+☠️Debilidad: Los espiritus de sus hijos, Hierro y sal☠️
+````
+<br>
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+### Descripción:
+La mujer de blanco, o más conocida como La Llorona, tiene múltiples orígenes. Algunos dicen que pudo haber aparecido en México por primera vez; otros, que su origen está más al norte, en los Estados Unidos; y unos tantos afirman que su origen es más al sur, en Chile. La verdad es que todos están en lo correcto y, a la vez, en un error. Esto se debe a que, en realidad, la mujer de blanco es un tipo de espectro, todos ellos con el mismo origen, o al menos uno muy similar.
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+Se trata de mujeres que fueron víctimas de la infidelidad de sus maridos y, al enterarse, sufrieron de locura momentánea. Esto las llevó a asesinar a sus hijos, ahogándolos en un río, lago, mar, o incluso en una bañera, para luego suicidarse al darse cuenta de lo que habían hecho. Por esta razón, vagan por la localidad en la que murieron, en busca de sus hijos, a quienes ellas mismas quitaron la vida. Sin embargo, lo que en realidad buscan son hombres infieles para castigarlos por lo que sus propios maridos les hicieron en vida.
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+### Archivo #1
+Bueno, como era de esperar, no todas las historias serán sobre mí, ya que este espectro en particular se lo encontró un amigo de la infancia, también cazador, pero él aún vive en nuestro país natal, Chile. Para no hacerlos esperar más, procederé a contarles cómo fue.
+
+El sol se estaba poniendo en el horizonte, y el cielo se teñía de tonos naranjas y rojos. El cazador de criaturas y entes paranormales autodenominado Rafael se encontraba en un pueblo del sur de Chile, tras la pista de una de las criaturas más temidas de la región: La Llorona.
+
+Rafael había escuchado historias sobre esta figura femenina que aparecía por las noches en las orillas de los ríos, llorando por sus hijos, a quienes supuestamente había ahogado. Se decía que su lamento era tan desgarrador que hacía temblar a los hombres más valientes.
+
+Pero Rafael no era un hombre que se asustara fácilmente. Había cazado todo tipo de criaturas y entidades sobrenaturales, y había sobrevivido a innumerables peligros. Estaba seguro de que podría enfrentarse a La Llorona y vencerla.
+
+Así que se adentró en el bosque, siguiendo el sonido del río que corría cerca. La noche caía rápidamente, y las sombras se alargaban. Los crujidos de las ramas y el silbido del viento eran los únicos sonidos que se oían en el bosque.
+
+De repente, escuchó un gemido. Era el lamento de una mujer, una voz llena de tristeza y dolor. Rafael sacó su rifle y se dirigió hacia el sonido. Pronto vio a una mujer vestida de blanco, que se encontraba al borde del río, llorando desconsoladamente.
+
+No había duda, era La Llorona. Rafael sabía que esta criatura era débil contra los espíritus de sus hijos muertos, la sal y el hierro. Así que sacó de su mochila una bolsa de sal y un cuchillo de hierro, y se acercó a ella.
+
+La figura se levantó y lo miró directamente a los ojos. Rafael no flaqueó; sabía que estaba armado con las herramientas correctas para luchar contra ella.
+
+La Llorona empezó a caminar hacia él, con pasos lentos y arrastrados. El sonido de sus lágrimas era ensordecedor. Rafael levantó su rifle, pero La Llorona lo detuvo con una mano. Sin embargo, Rafael no se rindió. Con su cuchillo de hierro, le cortó la mano que lo detenía y le arrojó sal a los ojos, lo que le hizo gritar de dolor.
+
+La Llorona retrocedió, herida y confundida. Rafael aprovechó la oportunidad para disparar su rifle y acabar con ella de una vez por todas.
+
+Después de esa noche, Rafael se sintió más seguro de sí mismo. Había cazado a una de las criaturas más peligrosas de la región y había sobrevivido. Sabía que aún quedaban muchos peligros en el mundo, pero también sabía que tenía las herramientas para enfrentarlos.
+
+Seguiremos hablando más de este mundo en el próximo archivo, se despide su amigo cazador, Jimmy.

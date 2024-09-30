@@ -15,11 +15,13 @@ import { fade } from "astro:transitions";
 	</head>
 	<body>
 		<Header />
-		<main transition:animate={fade({ duration: "1.3s" })}>
-			<h2>💀Bienvenidos Letrad@s👻</h2>
+		<main transition:animate={fade({ duration: "1.3s" })} class="flex flex-col justify-center">
+			<div class="w-full text-center">
+				<h3 class="text-3xl md:text-4xl">🐱‍💻Bienvenidos Cronistas🐱‍👤</h3>
+			</div>
 			<p>
 				¡Bienvenidos a este compendio de blogs dedicados a la cultura
-				geek, el terror, el anime, el desarrollo de software y los
+				geek, leyendas, anime, desarrollo de software y los
 				videojuegos! En esta primera edición, comenzaremos con un
 				fascinante blog sobre leyendas del mundo.
 			</p>
